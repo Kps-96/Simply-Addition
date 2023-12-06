@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url(images.jpeg);
+   
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#box1{
+    margin-left: 40%;
+    display: inline;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#box2{
+    display: inline;
+    margin-left: 40%;
+    cursor: auto;
+}
+
+#botton{
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 0px 30px 0px 30px;
+    cursor: auto;
+    margin-bottom: 10px;
+
+}
+
+button:hover {
+    background-color: rgb(91, 248, 91);
+  }
+
+  p{
+    color: white;
+    background-color: black;
+    display: inline;
+    margin-left: 44%;
+    text-transform: uppercase;
+    
+  }
+

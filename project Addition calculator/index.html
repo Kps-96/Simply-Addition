@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Addition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="download.png">
+</head>
+<body>
+    <h1>Simple Addition</h1>
+    <input type="number" placeholder="Enter the 1st value" id="box1">
+    <br>
+    <input type="number" placeholder="Enter the 2nd value" id="box2">
+    <br>
+    <button onclick="add()" id="botton">Add</button>
+    <br>
+    <p id="result"></p>
+</body>
+</html>
+
+
+<script>
+    //selecting required elements
+    var a = document.getElementById("box1")
+    var b = document.getElementById("box2")
+    var total = document.getElementById("result")
+
+
+    function add()
+    {
+        var av=Number(a.value)
+        var bv=Number(b.value)
+        var tot=av+bv
+        result.textContent = "Answer is :"+tot
+        console.log(tot)
+    }
+
+</script>
